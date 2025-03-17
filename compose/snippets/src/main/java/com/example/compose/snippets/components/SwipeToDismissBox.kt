@@ -62,7 +62,7 @@ fun SwipeToDismissBoxExamples() {
     ) {
         Text("Swipe to dismiss with change of background", fontWeight = FontWeight.Bold)
         SwipeItemExample()
-        Text("Swipe to dismiss with a cross-fade animation", fontWeight = FontWeight.Bold)
+        Text("Swipe to dismiss with a cross-fde animation", fontWeight = FontWeight.Bold)
         SwipeCardItemExample()
     }
 }
