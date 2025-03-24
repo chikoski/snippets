@@ -349,9 +349,8 @@ public class ActivityEmbeddingJavaSnippets {
                     .setDefaultSplitAttributes(splitAttributes)
                     .build();
 
-                SplitController.getInstance(
-                    getApplicationContext()).pinTopActivityStack(getTaskId(),
-                    pinSplitRule);
+                SplitController.getInstance(getApplicationContext())
+                    .pinTopActivityStack(getTaskId(), pinSplitRule);
             });
             // [END android_activity_embedding_pinButton_java]
 
