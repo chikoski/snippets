@@ -68,7 +68,7 @@ fun BadgeExample() {
     ) {
         Icon(
             imageVector = Icons.Filled.Mail,
-            contentDescription = "Email"
+            contentDescription = "Emai"
         )
     }
 }
